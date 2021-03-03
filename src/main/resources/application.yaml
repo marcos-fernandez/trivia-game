@@ -1,3 +1,9 @@
 spring:
   session:
     store-type: mongodb
+  data:
+    mongodb:
+      uri: mongodb://localhost/trivia
+server:
+  http2:
+    enabled: true
